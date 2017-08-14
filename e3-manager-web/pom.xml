@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>cn.e3mal</groupId>
+		<groupId>cn.e3mall</groupId>
 		<artifactId>e3-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -59,17 +59,17 @@
 			<artifactId>spring-context-support</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>cn.e3mal</groupId>
+			<groupId>cn.e3mall</groupId>
 			<artifactId>e3-manager-interface</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>cn.e3mal</groupId>
+			<groupId>cn.e3mall</groupId>
 			<artifactId>e3-manager-pojo</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>cn.e3mal</groupId>
+			<groupId>cn.e3mall</groupId>
 			<artifactId>e3-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
@@ -95,6 +95,11 @@
 		<dependency>
 			<groupId>com.github.sgroschupf</groupId>
 			<artifactId>zkclient</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>cn.e3mall</groupId>
+			<artifactId>e3-content-interface</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>

@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>cn.e3mal</groupId>
+		<groupId>cn.e3mall</groupId>
 		<artifactId>e3-manager</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -10,7 +10,7 @@
 	<artifactId>e3-manager-service</artifactId>
 	<dependencies>
 		<dependency>
-			<groupId>cn.e3mal</groupId>
+			<groupId>cn.e3mall</groupId>
 			<artifactId>e3-manager-interface</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
